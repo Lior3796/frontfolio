@@ -17,13 +17,14 @@ import { useEffect } from 'react';
 function Portfolio() {
     const PorfolioContext = SetPortfolioContext();
     const portfolioImages = [projectImage1, projectImage2, projectImage3,projectImage4];
-
+  
     const StyleProject = styled.div`
      display:flex;
      flex-direction:column;
      justify-content:space-between;
      position:relative;
      padding:50px;
+
      `;
 
     const StyledButton = styled.button`
