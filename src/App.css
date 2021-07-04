@@ -1,6 +1,12 @@
 .App {
   text-align: center;
+  background-color: white;
+  color: rgb(237, 237, 237);
+  width: 100%;
+  font-family: 'Assistant', sans-serif;
+  overflow-x: hidden;
 }
+
 
 .App-logo {
   height: 40vmin;
